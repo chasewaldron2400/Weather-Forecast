@@ -1,0 +1,41 @@
+body {
+    background-color: #e1f5fe;
+}
+
+h1 {
+    text-align: center;
+    align-content: center;
+}
+
+header {
+    background-color: #29b6f6;
+    max-height: max-content;
+    padding: 25px;
+    
+}
+
+.pageContent {
+    display: flex;
+    display: inline;
+}
+
+.nav-wrapper {
+    background-color: #29b6f6;
+    display: flex;
+    align-items: center;
+}
+
+#searchColumn {
+    margin-right: 20px;
+}
+
+#searchHistory {
+    margin-bottom: 10px;
+}
+
+.forecast {
+    display: flex;
+    flex-direction: block;
+    justify-content: space-between;
+    align-items: flex-start;
+}

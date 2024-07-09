@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="Assets/css/materialize.css" media="screen,projection" />
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <title>Weather Radar</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Weather Forecast</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+            </ul>
+        </div>
+    </nav>
+    <section id="pageContent" class="container">
+        <div class="row">
+            <div id="searchColumn" class="col s12 m6">
+                <h2>Search for a City</h2>
+                <div class="input-field">
+                    <label for="citySearch"></label>
+                    <input type="text" id="citySearch" placeholder="Enter City">
+                    <button class="btn waves-effect waves-light" id="forecastButton" name="action">GET FORECAST</button>
+                </div>
+                <div id="searchHistory">
+                    <ul id="searchHistoryList" class="collection">
+                    </ul>
+                </div>
+                <div id="currentWeather">
+                    <h3 id="nameDate"></h3>
+                    <img id="weatherIcon">
+                    <p id="temp"></p>
+                    <p id="humidity"></p>
+                    <p id="wind"></p>
+                </div>
+                <h3>5 Day Forecast</h3>
+                <div id="forecast" class="forecast">
+                    <div id="forecast1">
+                        <h4 id="nameDate1"></h4>
+                        <img id="weatherIcon1">
+                        <p id="temp1"></p>
+                        <p id="humidity1"></p>
+                        <p id="wind1"></p>
+                    </div>
+                    <div id="forecast2">
+                        <h4 id="nameDate2"></h4>
+                        <img id="weatherIcon2">
+                        <p id="temp2"></p>
+                        <p id="humidity2"></p>
+                        <p id="wind2"></p>
+                    </div>
+                    <div id="forecast3">
+                        <h4 id="nameDate3"></h4>
+                        <img id="weatherIcon3">
+                        <p id="temp3"></p>
+                        <p id="humidity3"></p>
+                        <p id="wind3"></p>
+                    </div>
+                    <div id="forecast4">
+                        <h4 id="nameDate4"></h4>
+                        <img id="weatherIcon4">
+                        <p id="temp4"></p>
+                        <p id="humidity4"></p>
+                        <p id="wind4"></p>
+                    </div>
+                    <div id="forecast5">
+                        <h4 id="nameDate5"></h4>
+                        <img id="weatherIcon5">
+                        <p id="temp5"></p>
+                        <p id="humidity5"></p>
+                        <p id="wind5"></p>
+                    </div>
+                </div>
+    </section>
+    <script type="text/javascript" src="Assets/js/materialize.js"></script>
+    <script src="Assets/js/script.js"></script>
+</body>
+
+</html>
