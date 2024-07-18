@@ -3,6 +3,8 @@
 ## Description
 
 This project is a Weather Frorecast application that shows the 5 day forecast
+![image](https://github.com/user-attachments/assets/64440df1-e88d-4df8-a7c2-588f2cc01d5d)
+
 
 Content Added
 - Added City Search
@@ -24,6 +26,7 @@ To install, click green code button and copy your preferred method (https or ssh
 
 ## Usage
 
+https://chasewaldron2400.github.io/Weather-Forecast/
 This website helps you see the upcoming weather
 
 ## Credits
